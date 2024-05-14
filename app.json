@@ -1,0 +1,25 @@
+{
+  "name": "ShazamBot",
+  "description": "A Telegram bot that identifies songs.",
+  "version": "1.0.0",
+  "keywords": ["telegram", "bot", "music"],
+  "main": "shazam_bot.py",
+  "scripts": {
+    "start": "python shazam_bot.py"
+  },
+  "dependencies": {
+    "pyrogram": "^1.2.0"
+  },
+  "engines": {
+    "python": ">=3.6"
+  },
+  "license": "MIT",
+  "author": "Your Name",
+  "private": true,
+  "config": {
+    "API_ID": "YOUR_API_ID",
+    "API_HASH": "YOUR_API_HASH",
+    "BOT_TOKEN": "YOUR_BOT_TOKEN",
+    "DESCRIPTION": "ShazamBot is a Telegram bot that helps you identify songs by sending voice messages. Simply send a voice message to the bot, and it will attempt to recognize the song for you."
+  }
+}l
